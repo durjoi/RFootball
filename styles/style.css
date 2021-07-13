@@ -61,8 +61,7 @@ main {
 }
 
 .container {
-    width: 1050px;
-    
+    width: 992px;
 }
 
 .top-banner {
@@ -131,4 +130,37 @@ main {
     font-weight: 400;
     color: #6C6C6C;
     margin-top: 0px;
+}
+
+/*======================
+    Highlight Section CSS  
+========================*/
+
+.highlight {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    grid-gap: 66px;
+}
+
+.highlight__content>h2 {
+    font-size: 48px;
+    font-weight: 700px;
+    color: #0A0826;
+    Line-height: 60px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.highlight__content>p {
+    color: #6C6C6C;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-top: 8px;
+    margin-bottom: 24px;;
+}
+
+.highlight>img {
+    width: 100%;
 }
