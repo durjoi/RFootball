@@ -1,0 +1,81 @@
+/*======================
+    Google Font
+========================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,400&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+/*======================
+    Theme Settings
+========================*/
+:root {
+    --primary-bg: #2D25A0;
+    --secondary-bg: #ffffff;
+}
+
+
+/*======================
+    Reset CSS
+========================*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*======================
+    Reusable CSS
+========================*/
+
+.btn {
+    display: inline-block;
+    padding: 10px 24px;
+    background: #E02C6D;
+    color: #ffffff;
+    align-items: center;
+    border: none;
+    text-decoration: none;
+}
+.btn > span {
+    margin-right: 8px;
+}
+
+/*======================
+    Main CSS  
+========================*/
+
+.top-banner {
+    background: var(--primary-bg);
+    height: 677px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.top-banner:hover .top-banner__content__img {
+    transform: scale(1.2);
+}
+
+.top-banner__content {
+    width: 1050px;
+    height: 100%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.top-banner__content__text>h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.top-banner__content__img {
+    width: 100%;
+    transition: 1s;
+}
+
