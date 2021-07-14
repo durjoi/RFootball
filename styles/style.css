@@ -200,6 +200,84 @@ main {
     width: 100%;
 }
 
+
+/*======================
+    Latest News CSS  
+========================*/
+
+.news {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+.news-item {
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.news-item>img {
+    width: 100%;
+}
+
+.news-item h2 {
+    font-size: 20px;
+    color: #18191F;
+    margin-bottom: 10px;
+}
+.news-item p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #6C6C6C;
+    margin-top: 0px;
+}
+
+.news-item>.btn {
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    color: #E02C6D;
+    font-size: 14px;
+}
+
+/*======================
+    Giveway CSS  
+========================*/
+
+.giveway {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 60px;
+}
+
+.giveway-title {
+    font-size: 48px;
+}
+
+.giveway-description {
+    color: #6C6C6C;
+}
+
+.giveway form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    
+}
+
+.giveway input {
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #6C6C6C;
+    height: 40px;
+    margin-bottom: 20px;
+    
+}
+.giveway>form>button {
+    font-size: 16px!important;
+}
+
 /*======================
     Footer CSS  
 ========================*/
