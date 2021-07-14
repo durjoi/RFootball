@@ -70,6 +70,10 @@ header {
     align-items: center;
 }
 
+.top-header>i {
+    display: none;
+}
+
 nav>ul {
     list-style: none;
     display: flex;
@@ -252,10 +256,13 @@ main {
 
 .giveway-title {
     font-size: 48px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .giveway-description {
     color: #6C6C6C;
+    
 }
 
 .giveway form {
@@ -306,4 +313,149 @@ footer>img {
 
 .copywrite {
     font-size: 18px;
+}
+
+/*======================
+    Responsive CSS  
+========================*/
+
+@media only screen and (max-width: 640px) {
+    .section-padding {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    /* Header Css */
+    .top-header {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .top-header nav {
+        display: none;
+    }
+    
+    .top-header>i {
+        display: block;
+        color: #fff;
+        font-size: 26px;
+    }
+
+    /* Top Banner CSS */
+    .container {
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .top-banner {
+        height: 100%;
+    }
+
+    .top-banner__content {
+        grid-template-columns: 1fr;
+        height: 700px;
+    }
+
+    .top-banner__content__text {
+        padding-top: 50px;
+    }
+
+    .top-banner__content__text>h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .top-banner__content__img {
+        height: 260px;
+    }
+
+
+    /* Players CSS  */
+
+    .players {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+        grid-row-gap: 27px;
+        
+    }
+
+    .player {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    /* Highlight Section CSS  */
+    .highlight {
+        grid-template-columns: 1fr;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .highlight__content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .highlight__content>h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .highlight__content>p {
+        
+    }
+    
+    .highlight>img {
+        width: calc(100% - 40px);
+        margin: auto;
+    }
+
+    /* Latest News Section  */
+
+    .news {
+        grid-template-columns: 1fr;
+    }
+
+    .latest-news__title {
+        margin-left: 20px;
+    }
+    
+    .news-item {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .news-item>img {
+        width: 100%;
+    }
+    
+    
+    /* Giveway Section CSS  */
+
+    .giveway {
+        grid-template-columns: 1fr;
+        grid-row-gap: 10px;
+    }
+    
+    .content {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .giveway>form {
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+    .giveway-title {
+        font-size: 30px;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    /* Footer CSS  */
+    footer>img {
+        width: calc(100% - 60px);
+        
+    }
+
 }
