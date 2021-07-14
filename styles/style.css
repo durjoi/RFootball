@@ -326,10 +326,6 @@ footer>img {
     }
     
     /* Header Css */
-    .top-header {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
     .top-header nav {
         display: none;
     }
