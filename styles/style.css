@@ -326,6 +326,11 @@ footer>img {
     }
     
     /* Header Css */
+
+    .top-header {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
     .top-header nav {
         display: none;
     }
@@ -339,17 +344,20 @@ footer>img {
     /* Top Banner CSS */
     .container {
         width: 100%;
-        margin-left: 20px;
-        margin-right: 20px;
+        /* padding-left: 20px;
+        padding-right: 20px; */
     }
 
     .top-banner {
         height: 100%;
+        padding-bottom: 50px;
     }
 
     .top-banner__content {
         grid-template-columns: 1fr;
         height: 700px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .top-banner__content__text {
@@ -362,7 +370,8 @@ footer>img {
     }
 
     .top-banner__content__img {
-        height: 260px;
+        height: 100%;
+        width: 100%;
     }
 
 
@@ -373,19 +382,18 @@ footer>img {
         grid-template-columns: 1fr;
         grid-gap: 30px;
         grid-row-gap: 27px;
+        justify-content: center;
         
     }
 
     .player {
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     /* Highlight Section CSS  */
     .highlight {
         grid-template-columns: 1fr;
-        padding-left: 30px;
-        padding-right: 30px;
     }
     
     .highlight__content {
@@ -417,8 +425,8 @@ footer>img {
     }
     
     .news-item {
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .news-item>img {
         width: 100%;
@@ -465,11 +473,5 @@ footer>img {
 
     .players {
         grid-template-columns: 1fr 1fr;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .player {
-        
     }
 }
